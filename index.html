@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>腾讯天气</title>
+</head>
+<link rel="stylesheet" href="./index.css" type="text/css">
+
+<body>
+    <div id="background">
+        <div id="location">
+            <div><img src="./images/arrow.png" alt="退出"></div>
+            <img src="./images/location.png">
+            <div id="local">重庆</div>
+        </div>
+        <div id="temp">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>光芒透过云缝，洒向大地~</div>
+        </div>
+    </div>
+    <div id="explore">
+        <div>
+            <div id="top">
+                <div id="exp"><input type="text" value=""></div>
+                <div id="quit">取消</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="twodays">
+        <div>
+            <div> 今天 <span></span> <span id="todaytemp">37/22°</span> </div>
+            <div> <span id="todaysun"></span> <span></span> <img src="" alt=""></div>
+        </div>
+        <div>
+            <div>明天<span></span> <span id="tomorrowtemp">37/22°</span></div>
+            <div> <span id="tomorrowsun"></span><span></span> <img src="" alt=""></div>
+        </div>
+    </div>
+    <div id="time_weather">
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+        <div><span></span><img src="" alt=""><b></b></div>
+    </div>
+    <div>
+        <canvas id="linechart"></canvas>
+    </div>
+    <div id="chartthen">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="icons"><img src="./images/day/qing.png" alt=""><img src="./images/day/qing.png" alt=""><img src="./images/day/qing.png" alt=""><img src="./images/day/qing.png" alt=""><img src="./images/day/qing.png" alt=""><img src="./images/day/qing.png" alt=""><img src="./images/day/qing.png" alt=""></div>
+    <div id="liweather"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+</body>
+<script src="./main.js" type="module"></script>
+<!-- <script src="../dist/bundle.js"></script> -->
+<!-- <script src="../js/city_data.js" type="module"></script> -->
+
+</html>
